@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f0c0829e22.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Two - Gerow</title>
+</head>
+<body>
+    <!-- header start -->
+     <header class="hdr">
+        <nav class="">
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+              <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                  <!-- Mobile menu button-->
+                  <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="absolute -inset-0.5"></span>
+                    <span class="sr-only">Open main menu</span>
+                    
+                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    
+                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="logo flex flex-shrink-0 items-center">
+                  <img class="h-8 w-auto" src="Images/logo.png" alt="Your Company">
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
+                  <div class="hidden sm:ml-6 sm:block ">
+                    <div class="flex menu space-x-4  justify-center items-center">
+  
+                      <button type="button" class="inline-flex items-center px-2 py-2 text-base font-semibold text-blue-700" aria-expanded="false" aria-current="page">
+                        <span>Home</span>
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>
+                      </button>
+                      <a href="#" class="px-2 py-2 text-base font-semibold text-blue-950 hover:text-blue-700">About Us</a>
+                      <button type="button" class="inline-flex items-center px-2 py-2 text-base font-semibold text-blue-950 hover:text-blue-700" aria-expanded="false" aria-current="page">
+                        <span>Pages</span>
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>
+                      </button>
+                      <button type="button" class="inline-flex items-center px-2 py-2 text-base font-semibold text-blue-950 hover:text-blue-700" aria-expanded="false" aria-current="page">
+                        <span>Blog</span>
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                        </svg>
+                      </button>
+                      <a href="#" class="px-2 py-2 text-base font-semibold text-blue-950 hover:text-blue-700">Contact</a>
+                    </div>
+                  </div>
+                </div>
+                <i class="fa-solid ss fa-bars text-xl text-slate-500"></i>
+                <div class="f-ico  absolute inset-y-0 right-0 flex justify-center items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                  <i class="fa-solid fa-phone-volume rounded-full"></i>
+                </div>
+                  <!-- Profile dropdown -->
+                  <div class="relative ml-3">
+                    <div class="hl">
+                      <p class="text-slate-500 font-semibold">Hot Line Number</p>
+                      <h4 class="text-base font-semibold text-blue-950 ">+123 8989 444</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden" id="mobile-menu">
+              <div class=" space-y-1 px-2 pb-3 pt-2">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="#" class="block bg-gray-900 px-3 py-2 text-base font-medium text-blue-700" aria-current="page">Home</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium text-blue-950">About Us</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium text-blue-950">Pages</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium text-blue-950">Blog</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium text-blue-950">Contact</a>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+</body>
+</html>
