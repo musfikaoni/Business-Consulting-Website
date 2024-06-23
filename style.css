@@ -6,7 +6,7 @@
 .hdr {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom left, #fafdfe 0%,#f4ebff 40%, #e9f9ff 85%, #fafdfe 95%);;
+    background: linear-gradient(to bottom left, #fafdfe 0%,#f4ebff 40%, #e9f9ff 85%, #eefafd 95%);
 }
 .f-ico i {
     color: white;
@@ -47,8 +47,59 @@
 .inp input {
     font-size: 18px;
     padding: 20px 25px;
+    outline: none;
 } 
 /* header end */
+/* client section start */
+.sc-1 {
+    background: linear-gradient(to top right, #ffffff 5%, #ebfafd 65%, #F1EEFF 100%);
+}
+.imgbg {
+    margin-left: 50px;
+}
+.as img {
+    height: auto;
+    width: 80% !important;
+}
+.s img {
+    height: auto;
+    width: 120% !important;
+    margin-top: 22px;
+}
+.ad img {
+    height: auto;
+    width: 80% !important;
+    margin-top: 7px;
+}
+.af img {
+    height: auto;
+    width: 90% !important;
+    margin-top: 30px;
+}
+.ag img {
+    height: auto;
+    width: 87% !important;
+    margin-top: 18px;
+}
+.exbg {
+    height: 10vh;
+    background: linear-gradient(to top right, #ffffff 5%, #F7FDFE 65%, #EEFBFD 100%);
+}
+/* client section end */
+/* service section start */
+.mo {
+    display: flex;
+    justify-content: center;
+}
+.mo h2 {
+    width: 18%;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #E6EEFF;
+    color: #1764FF;
+} 
+/* service section end */
 @media (max-width: 768px) {
     .logo img {
         width: 60%;

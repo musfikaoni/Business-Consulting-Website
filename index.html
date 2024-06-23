@@ -6,6 +6,14 @@
     <script src="https://kit.fontawesome.com/f0c0829e22.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+    <!-- oul carousel min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- oul carousel theme min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
     <title>Home Two - Gerow</title>
 </head>
@@ -97,7 +105,7 @@
             <div class="w-3/4 my-12">
               <div>
                 <h1 class="text-5xl font-bold text-blue-950 leading-tight">Need Business Consultation <br> Today</h1>
-                <p class="my-8 text-base font-medium text-slate-00">Agilos helps you to convert your data into a strategic asset and get top-notch business insights.</p>
+                <p class="my-8 text-base font-medium text-slate-500">Agilos helps you to convert your data into a strategic asset and get top-notch business insights.</p>
               </div>
     
               <div>
@@ -133,10 +141,88 @@
           </div>
         </div>
     </header>
-
-
-    
-    <img src="" alt="">
     <!-- header end -->
+    <!-- section start -->
+    <main>
+      <!-- client section strat -->
+      <section class="sc-1">
+        <div class="allcrl1">
+          <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <p class="text-sm py-10 antialiased tracking-wide font-semibold text-slate-500">Trusted by 10,000+ companies around the world</p>
+            <div class="">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="imgbg as">
+                      <img src="Images/brand_img01.PNG" alt="">
+                  </div> 
+                </div>
+                <!--item end-->
+                <div class="item">                                
+                  <div class="imgbg s">
+                      <img src="Images/brand_img02.PNG" alt="" class="card-img-top">
+                  </div>                           
+                </div>
+                <!--item end-->
+                <div class="item">
+                  <div class="imgbg ad">
+                      <img src="Images/brand_img03.PNG" alt="" class="card-img-top">
+                  </div>     
+                </div>
+                <!--item end-->
+                <div class="item">
+                  <div class="imgbg af">
+                      <img src="Images/brand_img04.PNG" alt="" class="card-img-top">
+                  </div>
+                </div>
+                <!--item end-->
+                <div class="item">
+                    <div class="imgbg ag">
+                        <img src="Images/brand_img05.PNG" alt="" class="card-img-top">
+                    </div>
+                  </div>
+              </div>
+              <!--item end-->
+            </div>
+            <hr class="my-10 pb-8">
+          </div>
+        </div>
+        <div class="exbg"></div>
+      </section>
+      <!-- client section strat -->
+      <!-- service section start -->
+       
+      <!-- service section end -->
+    </main>
+    <!-- section end -->
+
+
+    <!-- owl carousel min .jQ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carousel min .js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script>
+          $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              autoplay:true,
+              autoplayTimeout:1200,
+              autoplayHoverPause:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:5
+                  }
+              }
+          })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
