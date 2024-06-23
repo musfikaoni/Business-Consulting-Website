@@ -87,6 +87,9 @@
 }
 /* client section end */
 /* service section start */
+.all-tx-era {
+    background: linear-gradient(to right, #FCF5FE 5%, #FFFFFF 65%, #FCF5FE);
+}
 .mo {
     display: flex;
     justify-content: center;
@@ -98,7 +101,29 @@
     font-weight: 600;
     background-color: #E6EEFF;
     color: #1764FF;
-} 
+}
+.cart-1 {
+    border: 1px solid rgb(214, 221, 230);
+    background-color: #FFFFFF;
+    height:52vh;
+    margin-top: -30px;
+}
+.cart-2 {
+    border: 1px solid rgb(214, 221, 230);
+    background-color: #FFFFFF;
+    height:52vh;
+}
+.cart-3 {
+    border: 1px solid rgb(214, 221, 230);
+    background-color: #FFFFFF;
+    height:52vh;
+    margin-top: -30px;
+}
+.cart-4 {
+    border: 1px solid rgb(214, 221, 230);
+    background-color: #FFFFFF;
+    height:52vh;
+}
 /* service section end */
 @media (max-width: 768px) {
     .logo img {
